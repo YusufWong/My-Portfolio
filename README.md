@@ -7,12 +7,13 @@ Welcome to my portfolio! Here, I showcase projects from my Mechanical Engineerin
 
 ## Projects (in chronological order)
 
-1. [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving Vehicle)
-2. [Pokémon Machine Learning, Data Regression & Classification using Python on Jupyter Notebook](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearningProject)
-3. 
-4. [3D Printed Elbow Exoskeleton](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/ElbowExoskeleton)
-5. [Another Project Name](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/AnotherProject)
-6. [Future Project Name](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/FutureProject)
+1. [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/SelfDrivingVehicle-Project)
+2. [Pokémon Machine Learning, Data Regression & Classification using Python on Jupyter Notebook](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)
+3. [Baja SAE Senior Design SolidWorks Project](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
+4. [3D Printed Elbow Exoskeleton](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/ElbowExoskeleton-Project)
+5. [Finite Element Analysis (FEA) of a Crankshaft using SolidWorks Simulation](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/CrankShaftFEA-Project)
+6. [Chess Game App using Java on Android Studio](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/ChessGameApp-Project)
+7. [Air Flow Simulation Project on ANSYS Fluent](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/AirFlowSimulation-Project)
 
 ## About
 
