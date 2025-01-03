@@ -43,6 +43,9 @@ Utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees
 </p>
 Utilized SolidWorks to perform stress data analysis and run validation tests on an existing 3D model of a crankshaft pulley design by analyzing locations of restraints and loads. Fillets were added and concentration factors were removed to modify the existing design; a sensitivity test was conducted by varying the dimensions of the fillet radii to validate the FEA model.
 
+## Test
+https://docs.google.com/viewer?url=${https://drive.google.com/file/d/1YuEGp1X8trGfYWyuloWyYsKIizRTzGNM/view?usp=drive_link}
+
 
 ## [Air Flow Simulation Project on ANSYS Fluent](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
 <p align="center">
