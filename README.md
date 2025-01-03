@@ -1,6 +1,6 @@
 # Welcome to My-Portfolio!
 <p align="center">
-  <img src="https://github.com/YusufWong/My-Portfolio/Welcome.jpg" />
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Welcome.jpg" />
 </p>
 Here, I showcase projects during my Academic career. Click on a project title to explore its details!
 
