@@ -2,6 +2,9 @@
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Welcome.jpg" />
 </p>
+
+![ok](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_logo.jpg)
+
 Here, I showcase projects during my Academic career. Click on a project title to explore its details!
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project) 
