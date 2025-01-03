@@ -12,7 +12,7 @@ Here, I showcase projects during my Academic career. Click on a project title to
 I programmed a 2-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
 
 
-##  [Pokémon Machine Learning Project](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Pokémon-Machine-Learning-Project) 
+##  [Pokémon Machine Learning Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pok%C3%A9mon-Machine-Learning-Project/Pok%C3%A9monMachineLearningProject.ipynb) 
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" />
 </p>
