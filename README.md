@@ -20,6 +20,7 @@ I programmed a 2-minute driving simulation of an autonomous car driving on a rac
   <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pok%C3%A9mon-Machine-Learning-Project/Pok%C3%A9monMachineLearningProject.ipynb">
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png
     " width="600">
+    </a>
 </p>
 I Utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.
 
