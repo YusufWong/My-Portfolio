@@ -17,7 +17,7 @@ I programmed a 2-minute driving simulation of an autonomous car driving on a rac
 
 ##  [Pokémon Machine Learning Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pok%C3%A9mon-Machine-Learning-Project/Pok%C3%A9monMachineLearningProject.ipynb) 
 <p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project">
+  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pokemon-Machine-Learning-Project">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" />
     </a>
 </p>
