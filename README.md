@@ -36,7 +36,8 @@ Reversed engineered the game of chess from scratch by utilizing Java and Object-
 
 ## [Baja SAE Senior Design SolidWorks Project](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Baja-SAE-Senior-Design-Project)	
 <p align="center">
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Baja_SolidWorks.png" />
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Baja_SolidWorks.png"
+  width = "400" />
 </p>
 Collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease. 
 
