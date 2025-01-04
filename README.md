@@ -31,7 +31,7 @@ I utilized Scikit-learn machine learning and Pandas data manipulation Python lib
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif"
     height = "600" /> 
 </p>
-Reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
+I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
 
 ## [Baja SAE Senior Design SolidWorks Project](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Baja-SAE-Senior-Design-Project)	
@@ -39,7 +39,7 @@ Reversed engineered the game of chess from scratch by utilizing Java and Object-
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Baja_SolidWorks.png"
   />
 </p>
-Collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease. 
+I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease. 
 
 
 ## [3D Printed Robotic Elbow Exoskeleton using SolidWorks](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
@@ -49,22 +49,22 @@ Collaborated as a team to design a single-seat, off-road Baja on SolidWorks to c
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-3D-Model.png"
   width = "450" />
 </p>
-Utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
+I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
 
 
-## [Finite Element Analysis (FEA) of a Crankshaft using SolidWorks Simulation](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
+## [Finite Element Analysis (FEA) of a Crankshaft using SolidWorks Simulation](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/FEA-Crankshaft-SolidWorks-Project/README.md)	
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Deformed_CrankShaft.png" />
 </p>
-Utilized SolidWorks to perform stress data analysis and run validation tests on an existing 3D model of a crankshaft pulley design by analyzing locations of restraints and loads. Fillets were added and concentration factors were removed to modify the existing design; a sensitivity test was conducted by varying the dimensions of the fillet radii to validate the FEA model.
+I utilized SolidWorks to perform stress data analysis and run validation tests on an existing 3D model of a crankshaft pulley design by analyzing locations of restraints and loads. Fillets were added and concentration factors were removed to modify the existing design; a sensitivity test was conducted by varying the dimensions of the fillet radii to validate the FEA model.
 
 
-## [Air Flow Simulation Project on ANSYS Fluent](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
+## [Air Flow Simulation Project on ANSYS Fluent](https://github.com/YusufWong/My-Portfolio/tree/main/Air-Flow-Simulation-ANSYS-Fluent-Project/README.md)	
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Air-Foil-Mesh.png"
   width = "600" />
 </p>
-Ran a simulation of air flow at an inlet velocity and attack angle on an aircraft wing using 3D simulation software with over 3000 iterations to analyze fluid flow, such as pressure differences and velocity fields.
+I ran a simulation of air flow at an inlet velocity and attack angle on an aircraft wing using 3D simulation software with over 3000 iterations to analyze fluid flow, such as pressure differences and velocity fields.
 
 
 
