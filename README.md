@@ -47,7 +47,7 @@ Collaborated as a team to design a single-seat, off-road Baja on SolidWorks to c
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-Diagram.png" 
   width = "350"/>
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-3D-Model.png"
-  width = "500" />
+  width = "450" />
 </p>
 Utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
 
