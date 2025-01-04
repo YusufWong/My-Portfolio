@@ -27,10 +27,12 @@ I utilized Scikit-learn machine learning and Pandas data manipulation Python lib
 
 
 ## [Android Chess Game App using Java](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
-
-<img align = "center" height = "600" src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif">
-   Reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
-
+<p align="center">
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif"
+    height = "600" /> 
+  />
+</p>
+Reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
 
 ## [Baja SAE Senior Design SolidWorks Project](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Baja-SAE-Senior-Design-Project)	
