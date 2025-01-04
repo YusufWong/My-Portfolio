@@ -17,17 +17,12 @@ I programmed a 2-minute driving simulation of an autonomous car driving on a rac
 
 ##  [Pokémon Machine Learning Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pok%C3%A9mon-Machine-Learning-Project/Pok%C3%A9monMachineLearningProject.ipynb) 
 <p align="center">
+  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" />
+    </a>
 </p>
 I Utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.
 
-
-<p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pok%C3%A9mon-Machine-Learning-Project/Pok%C3%A9monMachineLearningProject.ipynb">
-    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png
-    " width="600">
-    </a>
-</p>
 
 
 
