@@ -8,9 +8,9 @@ Here, I showcase projects during my Academic career. Click on a project title to
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project) 
 <p align="center">
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/CARLA_carDriving.png"
-    width="600"
-   />
+  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project">
+    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/CARLA_carDriving.png" width="600">
+  </a>
 </p>
 I programmed a 2-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
 
