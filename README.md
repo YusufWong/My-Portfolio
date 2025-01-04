@@ -20,7 +20,7 @@ I programmed a 2-minute driving simulation of an autonomous car driving on a rac
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" />
     </a>
 </p>
-I Utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.
+I utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.
 
 
 [comment]: <> (This is a comment, it will not be included)
@@ -29,8 +29,7 @@ I Utilized Scikit-learn machine learning and Pandas data manipulation Python lib
 ## [Android Chess Game App using Java](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif" 
-  width = "200"
-  height = "400/>
+  />
 </p>
 Reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
