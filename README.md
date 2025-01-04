@@ -45,7 +45,7 @@ Collaborated as a team to design a single-seat, off-road Baja on SolidWorks to c
 ## [3D Printed Robotic Elbow Exoskeleton using SolidWorks](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-Diagram.png" 
-  width = "250"/>
+  width = "300"/>
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-3D-Model.png"
   width = "400" />
 </p>
