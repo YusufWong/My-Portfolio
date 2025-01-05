@@ -52,9 +52,11 @@ I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to
 I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
 
 
-## [Finite Element Analysis (FEA) of a Crankshaft using SolidWorks Simulation](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/FEA-Crankshaft-SolidWorks-Project/README.md)	
+## [Finite Element Analysis (FEA) of a Crankshaft using SolidWorks Simulation](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/FEA-Crankshaft-SolidWorks-Project/FEA_Crankshaft_Pulley_Yusuf_Wong.pdf)	
 <p align="center">
+  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/FEA-Crankshaft-SolidWorks-Project/FEA_Crankshaft_Pulley_Yusuf_Wong.pdf"> 
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Deformed_CrankShaft.png" />
+  </a>
 </p>
 I utilized SolidWorks to perform stress data analysis and run validation tests on an existing 3D model of a crankshaft pulley design by analyzing locations of restraints and loads. Fillets were added and concentration factors were removed to modify the existing design; a sensitivity test was conducted by varying the dimensions of the fillet radii to validate the FEA model.
 
