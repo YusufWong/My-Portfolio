@@ -61,10 +61,12 @@ I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degre
 I utilized SolidWorks to perform stress data analysis and run validation tests on an existing 3D model of a crankshaft pulley design by analyzing locations of restraints and loads. Fillets were added and concentration factors were removed to modify the existing design; a sensitivity test was conducted by varying the dimensions of the fillet radii to validate the FEA model.
 
 
-## [Air Flow Simulation Project on ANSYS Fluent](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Air-Flow-Simulation-ANSYS-Fluent-Project/README.md)	
+## [Air Flow Simulation Project on ANSYS Fluent](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Air-Flow-Simulation-ANSYS-Fluent-Project/Airfoil_Simulation_Spring_2018_ANSYS_Yusuf_Wong.pdf)	
 <p align="center">
+  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Air-Flow-Simulation-ANSYS-Fluent-Project/Airfoil_Simulation_Spring_2018_ANSYS_Yusuf_Wong.pdf">  
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Air-Foil-Mesh.png"
   width = "600" />
+  </a>
 </p>
 I ran a simulation of air flow at an inlet velocity and attack angle on an aircraft wing using 3D simulation software with over 3000 iterations to analyze fluid flow, such as pressure differences and velocity fields.
 
