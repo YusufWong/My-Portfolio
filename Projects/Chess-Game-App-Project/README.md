@@ -2,39 +2,28 @@
 
 
 
-**Align left (works fine):**
+**## Background**
 <p align="center">
-  <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"/>
-
-[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices. Its hardware products are licensed under a [CC-BY-SA][4] license, while software is licensed under the GNU Lesser General Public License (LGPL) or the GNU General Public License (GPL),[1] permitting the manufacture of Arduino boards and software distribution by anyone. Arduino boards are available commercially from the official website or through authorized distributors. Arduino board designs use a variety of microprocessors and controllers. The boards are equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards ('shields') or breadboards (for prototyping) and other circuits.
+  <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
+    width = "300"/>
+    I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
 </p>
 
-
-blah blah blah
-blah blah blahhhhhhhhhhhhhhh
-
-
-<p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif">
-    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif" width="600">
-  </a>
-</p>
+## Data Save/Retrieval Methods
+I created two functions to essentially swap pieces/gridButtons on the board with ease:
 
 
 
-
-<img align="left" width="33%" src="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif">I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
-
+## Implemented Features:
 
 
-
-
-
-
-
-
-## Background
+## What I Learned
+- LEARNING how to google/search on stackoverflow and EXPERIMENTING with code is a MUST! I learned to be more patient when trying to find the data structure I needed to create the chess game engine for this project
+- Finally understood what a wrapper is in Java (allows to swap pointers to objects with ease!)
+- Understood how to manipulate/customized my own grid Buttons by incorporating my own params and image variables associated with each type of piece/null piece
+- Learned how to organize classes and subsets/children of classes (i.e. creating an abstract Piece class within an abstract grid Button class [as shown in the code])
+- Don’t let perfectionism impede the main goal of a project. I fell into the trap of trying to make my project behave exactly as any other chess game engine. Even after completing my project, I realized I didn’t have time to incorporate the check/checkmate portion of chess because of the lack of time.  
 
 ## Data Structures Used
 Customized my own grid Button that had specific information such as:
