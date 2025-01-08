@@ -5,9 +5,9 @@
 </p>
 Here, I showcase projects during my Academic career. Click on a project title to explore its details!
 
-##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project) 
+##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
 <p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project">
+  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md">
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
   </a>
 </p>
