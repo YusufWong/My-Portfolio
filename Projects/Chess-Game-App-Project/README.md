@@ -2,7 +2,7 @@
 
 
 
-**## Background**
+## **Background**
 <p align="left">
   <img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
     width = "300"/>
@@ -10,7 +10,7 @@
 
 </p>
 
-## Data Save/Retrieval Methods
+## **Data Save/Retrieval Methods**
 I created two functions to essentially swap pieces/gridButtons on the board with ease:
 
 
