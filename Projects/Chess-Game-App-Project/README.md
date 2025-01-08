@@ -15,11 +15,20 @@
 </p>
 
 ## Data Structures Used:
+- I created an 8x8 2D array of customized GridButton Wrappers, so that each Grid Button/Chess Piece on the board can be swapped/changed with ease!
+```java
+public class GridButtonWrapper {
+  public GridButton gb;
+  GridButtonWrapper(GridButton gb) {this.gb = gb;}
+}
+```
+- Each Grid Button has specific information such as:
+  - Row
+  - Column
+  - Image (i.e. Pawn, Rook, Knight, Queen, Bishop, King, or else 0/null)
+  - Layout params that contain row & column info that can EASILY be manipulated!
 
  
-
-## **Data Save/Retrieval Methods**
-I created two functions to essentially swap pieces/gridButtons on the board with ease:
 ```java
 public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
     protected int row;
@@ -66,6 +75,9 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
     public GridLayout.LayoutParams getLayoutParams() { return params; }
 }
 ```
+
+## **Data Save/Retrieval Methods**
+I created two functions to essentially swap pieces/gridButtons on the board with ease:
 
 
 
