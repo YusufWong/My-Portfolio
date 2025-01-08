@@ -76,6 +76,83 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
 }
 ```
 
+## Initializing Data Structure:
+I initialized all the grid buttons on the Board using the following code:
+```java
+public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
+
+    protected int row;
+    protected int column;
+    protected GridLayout.LayoutParams params = new GridLayout.LayoutParams();
+    protected int image;
+
+    public int getRow() {
+        return row;
+    }
+
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public int getColumn() {
+        return column;
+    }
+
+    public void setColumn(int column) {
+        this.column = column;
+    }
+
+    public GridButton(Context context) {
+        super(context);
+    }
+
+    public GridButton(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    public GridButton(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+    }
+
+    public GridButton(Context context, int row, int column) {
+        super(context);
+        setRow(row);
+        setColumn(column);
+        updateParams(row, column);
+        params.width = 8; //this will never be changed
+        params.height = 8; //this will never be changed
+    }
+
+    public void setImageResource() {
+        this.setImageResource(image);
+    }
+
+    public void updateParams() {
+        params.width = 0; //this will never be changed
+        params.height = 8; //this will never be changed
+    }
+
+    public void updateParams(int row, int column) {
+        setRow(row);
+        setColumn(column);
+        params.rowSpec = GridLayout.spec(getRow(), 1, 1, GridLayout.FILL, 1);
+        params.columnSpec = GridLayout.spec(getColumn(), 1, 1, GridLayout.FILL, 1);
+    }
+
+    public GridLayout.LayoutParams getLayoutParams() {
+        return params;
+    }
+}
+```
+
+
+[0][0] represents top left corner of the board & [7][7] represents the bottom right corner 
+**Note** that all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!)
+Each piece requires to be either white or black
+
+
+
+
 ## **Data Save/Retrieval Methods**
 I created two functions to essentially swap pieces/gridButtons on the board with ease:
 
