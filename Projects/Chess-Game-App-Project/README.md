@@ -8,22 +8,16 @@
 
 ## **Background**
 <p align="left">
-    I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
+    Chess is a strategic board game played between two players, where the objective is to checkmate the opponent's king. It is played on an 8x8 grid with 16 pieces for each player: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece moves in specific patterns, and players take turns to move their pieces with the goal of controlling the board. Checkmate occurs when a player's king is placed in a position where it is under attack and cannot escape capture, either by moving to a safe square or by being defended by another piece. The game ends immediately when a player's king is checkmated. In this project, I reversed engineered this game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio, allowing two users to play the android application from any smartphone device.
 </p>
 
-## Data Structures Used:
-I created an 8x8 2D array of **customized GridButton Wrappers**, so that each Grid Button/Chess Piece on the board can be swapped/changed with ease. Each Grid Button has specific information such as:
-  - Row
-  - Column
+## Data Structures I Used:
+I created an 8x8 2D array of **GridButton Wrappers** each containing a customized Image buttons so that each Grid Button/Chess Piece on the board can be swapped/changed with ease. Each Grid Button has specific information such as:
+  - Row Number
+  - Column Number
   - Image (i.e. Pawn, Rook, Knight, Queen, Bishop, King, or else 0/null)
-  - Layout params that contain row & column info that can EASILY be manipulated!
+  - Layout parameters that contain row & column info that can easily be changed!
 
-```java
-public class GridButtonWrapper {
-  public GridButton gb;
-  GridButtonWrapper(GridButton gb) {this.gb = gb;}
-}
-```
 ```java
 public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
     protected int row;
@@ -68,6 +62,11 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
     }
 
     public GridLayout.LayoutParams getLayoutParams() { return params; }
+}
+
+public class GridButtonWrapper {
+  public GridButton gb;
+  GridButtonWrapper(GridButton gb) {this.gb = gb;}
 }
 ```
 
