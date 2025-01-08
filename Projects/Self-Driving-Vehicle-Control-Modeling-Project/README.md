@@ -1,7 +1,17 @@
 # Self-Driving Vehicle Control Modeling using Python & PID Control on CARLA Simulator 
 <p align="center">
 
-  [![yerrrrrrr](https://img.youtube.com/vi/BOJx0dWrCwA/0.jpg)](https://www.youtube.com/watch?v=BOJx0dWrCwA)
+
+https://github.com/user-attachments/assets/0330052d-7ea2-4957-a462-b16b4a787f5a
+
+
+
+
+https://github.com/user-attachments/assets/b0ec2554-ebee-421f-9719-2475592cc3fa
+
+
+
+https://github.com/user-attachments/assets/67aacfa5-eefd-4d18-932c-15da9e5b3a6a
 </p>
 
 
