@@ -4,13 +4,22 @@
 
 **Align left (works fine):**
 <p align="center">
-  <img align="left" src="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"/
+  <img align="left" src="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"/>
 
 [Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices. Its hardware products are licensed under a [CC-BY-SA][4] license, while software is licensed under the GNU Lesser General Public License (LGPL) or the GNU General Public License (GPL),[1] permitting the manufacture of Arduino boards and software distribution by anyone. Arduino boards are available commercially from the official website or through authorized distributors. Arduino board designs use a variety of microprocessors and controllers. The boards are equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards ('shields') or breadboards (for prototyping) and other circuits.
 
 </p>
 
 
+blah blah blah
+blah blah blahhhhhhhhhhhhhhh
+
+
+<p align="center">
+  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif">
+    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
+  </a>
+</p>
 
 
 
@@ -20,12 +29,7 @@
 
 
 
-##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
-<p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md">
-    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
-  </a>
-</p>
+
 
 
 
