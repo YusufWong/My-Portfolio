@@ -27,8 +27,6 @@ public class GridButtonWrapper {
   - Column
   - Image (i.e. Pawn, Rook, Knight, Queen, Bishop, King, or else 0/null)
   - Layout params that contain row & column info that can EASILY be manipulated!
-
- 
 ```java
 public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
     protected int row;
@@ -79,44 +77,44 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
 ## Initializing Data Structure:
 I initialized all the grid buttons on the Board using the following code:
 ```java
-public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
+void initializeButtons() {
 
-    protected int row;
-    protected int column;
-    protected GridLayout.LayoutParams params = new GridLayout.LayoutParams();
-    protected int image;
+    // Black Pieces in Row 0
+    gridButtonWrapper[0][0] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 0, column: 0, white: false));
+    gridButtonWrapper[0][1] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 0, column: 1, white: false));
+    gridButtonWrapper[0][2] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 0, column: 2, white: false));
+    gridButtonWrapper[0][3] = new GridButtonWrapper(new King(getApplicationContext(), row: 0, column: 3, white: false));
+    gridButtonWrapper[0][4] = new GridButtonWrapper(new Queen(getApplicationContext(), row: 0, column: 4, white: false));
+    gridButtonWrapper[0][5] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 0, column: 5, white: false));
+    gridButtonWrapper[0][6] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 0, column: 6, white: false));
+    gridButtonWrapper[0][7] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 0, column: 7, white: false));
 
-    public int getRow() {return row;}
-    public void setRow(int row) {this.row = row;}
-    public int getColumn() {return column;}
-    public void setColumn(int column) {this.column = column;}
-
-    public GridButton(Context context) {super(context);}
-    public GridButton(Context context, AttributeSet attrs) {super(context, attrs);}
-    public GridButton(Context context, AttributeSet attrs, int defStyleAttr) {super(context, attrs, defStyleAttr);}
-    public GridButton(Context context, int row, int column) {super(context);
-        setRow(row);
-        setColumn(column);
-        updateParams(row, column);
-        params.width = 8; //this will never be changed
-        params.height = 8; //this will never be changed
+    // Black Pawns in Row 1
+    for (int j = 0; j < 8; j++) {
+        gridButtonWrapper[1][j] = new GridButtonWrapper(new Pawn(getApplicationContext(), row: 1, j, white: false));
     }
 
-    public void setImageResource() {this.setImageResource(image);}
-
-    public void updateParams() {
-        params.width = 0; //this will never be changed
-        params.height = 8; //this will never be changed
+    // White Pawns in Row 6
+    for (int j = 0; j < 8; j++) {
+        gridButtonWrapper[6][j] = new GridButtonWrapper(new Pawn(getApplicationContext(), row: 6, j, white: true));
     }
 
-    public void updateParams(int row, int column) {
-        setRow(row);
-        setColumn(column);
-        params.rowSpec = GridLayout.spec(getRow(), 1, 1, GridLayout.FILL, 1);
-        params.columnSpec = GridLayout.spec(getColumn(), 1, 1, GridLayout.FILL, 1);
-    }
+    // White Pieces in Row 7
+    gridButtonWrapper[7][0] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 7, column: 0, white: true));
+    gridButtonWrapper[7][1] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 7, column: 1, white: true));
+    gridButtonWrapper[7][2] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 7, column: 2, white: true));
+    gridButtonWrapper[7][3] = new GridButtonWrapper(new King(getApplicationContext(), row: 7, column: 3, white: true));
+    gridButtonWrapper[7][4] = new GridButtonWrapper(new Queen(getApplicationContext(), row: 7, column: 4, white: true));
+    gridButtonWrapper[7][5] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 7, column: 5, white: true));
+    gridButtonWrapper[7][6] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 7, column: 6, white: true));
+    gridButtonWrapper[7][7] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 7, column: 7, white: true));
 
-    public GridLayout.LayoutParams getLayoutParams() {return params;}
+    // Make Everything Else Empty
+    for (int i = 2; i < 6; i++) {
+        for (int j = 0; j < 8; j++) {
+            gridButtonWrapper[i][j] = new GridButtonWrapper(new Empty(getApplicationContext(), i, j));
+        }
+    }
 }
 ```
 
@@ -176,3 +174,52 @@ installation
   <img src="C:\Users\yusuf\My-Portfolio\Projects\SelfDrivingVehicleControlModeling-Proj\images\CARLA_carDriving.png" />
 </p>
 
+
+## Garbage:
+## Initializing Data Structure:
+I initialized all the grid buttons on the Board using the following code:
+```java
+public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
+
+    protected int row;
+    protected int column;
+    protected GridLayout.LayoutParams params = new GridLayout.LayoutParams();
+    protected int image;
+
+    public int getRow() {return row;}
+    public void setRow(int row) {this.row = row;}
+    public int getColumn() {return column;}
+    public void setColumn(int column) {this.column = column;}
+
+    public GridButton(Context context) {super(context);}
+    public GridButton(Context context, AttributeSet attrs) {super(context, attrs);}
+    public GridButton(Context context, AttributeSet attrs, int defStyleAttr) {super(context, attrs, defStyleAttr);}
+    public GridButton(Context context, int row, int column) {super(context);
+        setRow(row);
+        setColumn(column);
+        updateParams(row, column);
+        params.width = 8; //this will never be changed
+        params.height = 8; //this will never be changed
+    }
+
+    public void setImageResource() {this.setImageResource(image);}
+
+    public void updateParams() {
+        params.width = 0; //this will never be changed
+        params.height = 8; //this will never be changed
+    }
+
+    public void updateParams(int row, int column) {
+        setRow(row);
+        setColumn(column);
+        params.rowSpec = GridLayout.spec(getRow(), 1, 1, GridLayout.FILL, 1);
+        params.columnSpec = GridLayout.spec(getColumn(), 1, 1, GridLayout.FILL, 1);
+    }
+
+    public GridLayout.LayoutParams getLayoutParams() {return params;}
+}
+```
+
+[0][0] represents top left corner of the board & [7][7] represents the bottom right corner 
+**Note** that all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!)
+Each piece requires to be either white or black
