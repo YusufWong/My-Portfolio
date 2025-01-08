@@ -70,8 +70,16 @@ public class GridButtonWrapper {
 }
 ```
 
-## Initializing Data Structure:
-I initialized all the grid buttons on the Board using the following code:
+<p align="center">
+  <img align="center" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
+    width = "300"/>
+</p>
+
+## Initializing Data Structure: (SHOW IMAGE OF INITIAL SETUP OF CHESS BOARD PICTURE)
+<img style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
+    width = "300"/>
+I initialized all the gridButtons on the board by coding the following:
+
 ```java
 void initializeButtons() {
 
@@ -113,8 +121,7 @@ void initializeButtons() {
     }
 }
 ```
-
-[0][0] represents top left corner of the board & [7][7] represents the bottom right corner. **Note:** all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!). Each piece requires to be either white or black
+**Note:** gridButtonWrapper[0][0] represents a piece on top left corner of the board & ridButtonWrapper[7][7] represents the bottom right corner. **Note:** all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!). Each piece requires to be either white or black
 
 
 
