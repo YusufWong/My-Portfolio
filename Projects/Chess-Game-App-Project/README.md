@@ -1,8 +1,20 @@
 # Android Chess Game App using Java
-<p align="left">
-  <img src="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif" />
-  I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
+
+
+<img align="left" width="33%" src="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif">I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
+
+
+
+
+##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
+<p align="center">
+  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md">
+    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
+  </a>
 </p>
+
+
+
 
 ## Background
 
