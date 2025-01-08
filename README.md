@@ -11,10 +11,10 @@ Here, I showcase projects during my Academic career. Click on a project title to
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
   </a>
 </p>
-I programmed a 2-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
+I programmed a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
 
 
-##  [Pokémon Machine Learning Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pok%C3%A9mon-Machine-Learning-Project/Pok%C3%A9monMachineLearningProject.ipynb) 
+##  [Pokémon Machine Learning Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pokemon-Machine-Learning-Project/PokemonMachineLearningProject.ipynb) 
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pokemon-Machine-Learning-Project/PokemonMachineLearningProject.ipynb">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" />
@@ -26,7 +26,7 @@ I utilized Scikit-learn machine learning and Pandas data manipulation Python lib
 [comment]: <> (This is a comment, it will not be included)
 
 
-## [Android Chess Game App using Java](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/PokemonMachineLearning-Project)	
+## [Android Chess Game App using Java](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/README.md)	
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif"
     height = "600" /> 
