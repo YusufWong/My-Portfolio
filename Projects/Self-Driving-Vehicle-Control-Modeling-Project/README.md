@@ -5,21 +5,6 @@
 </p>
 
 
-
-
-https://github.com/user-attachments/assets/0330052d-7ea2-4957-a462-b16b4a787f5a
-
-
-
-
-https://github.com/user-attachments/assets/b0ec2554-ebee-421f-9719-2475592cc3fa
-
-
-
-https://github.com/user-attachments/assets/67aacfa5-eefd-4d18-932c-15da9e5b3a6a
-
-
-
 I programmed a 2-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
 
 ## Background
