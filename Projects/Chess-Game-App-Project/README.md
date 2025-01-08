@@ -1,5 +1,9 @@
 # Android Chess Game App using Java
 
+<p align="center">
+  <img align="center" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
+    width = "300"/>
+</p>
 
 
 ## **Background**
@@ -10,6 +14,54 @@
 
 </p>
 
+## Data Structures Used:
+```java
+public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
+    protected int row;
+    protected int column;
+    protected GridLayout.LayoutParams params = new GridLayout.LayoutParams();
+    protected int image;
+
+    public int getRow() { return row; }
+    public void setRow(int row) { this.row = row; }
+    public int getColumn() { return column; }
+    public void setColumn(int column) { this.column = column; }
+
+    public GridButton(Context context) { super(context); }
+    public GridButton(Context context, AttributeSet attrs) { super(context, attrs); }
+    public GridButton(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+    }
+
+    public GridButton(Context context, int row, int column) {
+        super(context);
+        setRow(row);
+        setColumn(column);
+        updateParams(getRow(), getColumn());
+        params.width = 0; // this will never be changed
+        params.height = 0; // this will never be changed
+    }
+
+    public void setImageResource() {
+        this.setImageResource(image);
+    }
+
+    public void updateParams() {
+        params.width = 0; // this will never be changed
+        params.height = 0; // this will never be changed
+    }
+
+    public void updateParams(int row, int column) {
+        setRow(row);
+        setColumn(column);
+        params.rowSpec = GridLayout.spec(getRow(), 1, 1);
+        params.columnSpec = GridLayout.spec(getColumn(), 1, 1);
+    }
+
+    public GridLayout.LayoutParams getLayoutParams() { return params; }
+}
+ 
+
 ## **Data Save/Retrieval Methods**
 I created two functions to essentially swap pieces/gridButtons on the board with ease:
 
@@ -19,7 +71,9 @@ I created two functions to essentially swap pieces/gridButtons on the board with
 
 
 ## What I Learned
-- LEARNING how to google/search on stackoverflow and EXPERIMENTING with code is a MUST! I learned to be more patient when trying to find the data structure I needed to create the chess game engine for this project
+- **Learning** how to Google/Search on stackoverflow
+- **EXPERIMENTING** with code UST! I learned to be more patient when trying to find the data structure I needed to create the chess game engine for this project
+- **Patience**
 - Finally understood what a wrapper is in Java (allows to swap pointers to objects with ease!)
 - Understood how to manipulate/customized my own grid Buttons by incorporating my own params and image variables associated with each type of piece/null piece
 - Learned how to organize classes and subsets/children of classes (i.e. creating an abstract Piece class within an abstract grid Button class [as shown in the code])
