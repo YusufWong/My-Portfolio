@@ -15,6 +15,11 @@
 </p>
 
 ## Data Structures Used:
+
+ 
+
+## **Data Save/Retrieval Methods**
+I created two functions to essentially swap pieces/gridButtons on the board with ease:
 ```java
 public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
     protected int row;
@@ -60,10 +65,7 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
 
     public GridLayout.LayoutParams getLayoutParams() { return params; }
 }
- 
-
-## **Data Save/Retrieval Methods**
-I created two functions to essentially swap pieces/gridButtons on the board with ease:
+```
 
 
 
@@ -111,43 +113,3 @@ installation
   <img src="C:\Users\yusuf\My-Portfolio\Projects\SelfDrivingVehicleControlModeling-Proj\images\CARLA_carDriving.png" />
 </p>
 
-
-In order to do this project, I had to use a Software called Carla which is basically an open source autonomous driving simulator. It’s an API for Vehicle control, so by using Python, I can communicate the car’s movements and interactions within the simulation. It’s like a client-server architecture where I’m sending commands from the Python Client into the Carla Server to drive a car on virtual roads and racetracks. This CARLA software is open-source and free for everyone to download and use, making it fair for everyone to test their code on this free simulator.
-
-## Objectives
-Program Driving Simulation using 
-- Python
-- Vehicle Control Modelling Strategies
-
-Implement PID Control Methods
-- Longitudinal Control (Throttle/Braking)
-- Lateral Control (Steering)
-
-Utilized Python & CARLA Simulation Cohesively
-- Control vehicle to follow race track
-- Navigate through preset waypoints along predefined path (think Google Maps!)
-- Receive information of relative position & velocity 
-- Update/Command steering angle & throttle/velocity profiles from Python to CARLA
-- Adjust Steering Angle & Speed Profiles as Needed
-- Must reach waypoints at certain desired speeds
-
-
-
-
- That is so funny! :joy: 
-
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text | 
-
-
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-``` 
