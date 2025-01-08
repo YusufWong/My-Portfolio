@@ -1,4 +1,5 @@
 # Self-Driving Vehicle Control Modeling using Python & PID Control on CARLA Simulator 
+![Video Description](https://github.com/user-attachments/assets/f5eb00c8-9532-4826-9945-0dc2f65f5550)
 
 
 I programmed a 2-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
