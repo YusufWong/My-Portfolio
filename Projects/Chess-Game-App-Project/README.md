@@ -17,7 +17,7 @@ blah blah blahhhhhhhhhhhhhhh
 
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif">
-    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
+    <img src="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif" width="600">
   </a>
 </p>
 
