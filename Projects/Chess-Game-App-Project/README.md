@@ -86,36 +86,15 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
     protected GridLayout.LayoutParams params = new GridLayout.LayoutParams();
     protected int image;
 
-    public int getRow() {
-        return row;
-    }
+    public int getRow() {return row;}
+    public void setRow(int row) {this.row = row;}
+    public int getColumn() {return column;}
+    public void setColumn(int column) {this.column = column;}
 
-    public void setRow(int row) {
-        this.row = row;
-    }
-
-    public int getColumn() {
-        return column;
-    }
-
-    public void setColumn(int column) {
-        this.column = column;
-    }
-
-    public GridButton(Context context) {
-        super(context);
-    }
-
-    public GridButton(Context context, AttributeSet attrs) {
-        super(context, attrs);
-    }
-
-    public GridButton(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-    }
-
-    public GridButton(Context context, int row, int column) {
-        super(context);
+    public GridButton(Context context) {super(context);}
+    public GridButton(Context context, AttributeSet attrs) {super(context, attrs);}
+    public GridButton(Context context, AttributeSet attrs, int defStyleAttr) {super(context, attrs, defStyleAttr);}
+    public GridButton(Context context, int row, int column) {super(context);
         setRow(row);
         setColumn(column);
         updateParams(row, column);
@@ -123,9 +102,7 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
         params.height = 8; //this will never be changed
     }
 
-    public void setImageResource() {
-        this.setImageResource(image);
-    }
+    public void setImageResource() {this.setImageResource(image);}
 
     public void updateParams() {
         params.width = 0; //this will never be changed
@@ -139,12 +116,9 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
         params.columnSpec = GridLayout.spec(getColumn(), 1, 1, GridLayout.FILL, 1);
     }
 
-    public GridLayout.LayoutParams getLayoutParams() {
-        return params;
-    }
+    public GridLayout.LayoutParams getLayoutParams() {return params;}
 }
 ```
-
 
 [0][0] represents top left corner of the board & [7][7] represents the bottom right corner 
 **Note** that all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!)
