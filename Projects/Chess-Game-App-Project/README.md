@@ -2,8 +2,7 @@
 
 
 ## Background
- <img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/wizards_chess.gif"
-    />
+ <img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/wizards_chess.gif" style="margin:16px;"/>
 
 <div style="text-align: justify"> Chess is a strategic board game played between two players, where the objective is to checkmate the opponent's king. It is played on an 8x8 grid with 16 pieces for each player: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece moves in specific patterns, and players take turns to move their pieces with the goal of controlling the board. Checkmate occurs when a player's king is placed in a position where it is under attack and cannot escape capture, either by moving to a safe square or by being defended by another piece. The game ends immediately when a player's king is checkmated. In this project, I reversed engineered this game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio, allowing two users to play the android application from any smartphone device. </div>
 
