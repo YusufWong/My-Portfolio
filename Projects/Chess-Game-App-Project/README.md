@@ -87,7 +87,7 @@ public class GridButtonWrapper {
 I initialized all the gridButtons on the board by coding the following:
 
 <img align="right" style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/Initialized_ChessBoard.png"
-    height = "800"
+    height = "600"
 />
 
 ```java
