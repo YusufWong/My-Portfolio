@@ -8,15 +8,14 @@
 
 
 
-<p align="center">
-
 ## Data Structures I Used:
-I created an 8x8 2D array of **GridButton Wrappers** each containing a customized Image buttons so that each Grid Button/Chess Piece on the board can be swapped/changed with ease. Each Grid Button has specific information such as:
+I created an 8x8 2D array of **GridButton Wrappers** each containing a customized Image buttons so that every Grid Button/Chess Piece on the board can be swapped/changed with ease. Each Grid Button has specific information such as:
   - Row Number
   - Column Number
   - Image (i.e. Pawn, Rook, Knight, Queen, Bishop, King, or else 0/null)
   - Layout parameters that contain row & column info that can easily be changed!
 
+<p align="center">
  <img align="left" style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
     width = "300"/>
   
@@ -71,17 +70,7 @@ public class GridButtonWrapper {
   GridButtonWrapper(GridButton gb) {this.gb = gb;}
 }
 ```
-
-
 </p>
-
-<p align="center">
-  <img align="center" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
-    width = "300"/>
-  
-</p>
-
-
 
 <p align="center">
 
