@@ -11,6 +11,9 @@
     Chess is a strategic board game played between two players, where the objective is to checkmate the opponent's king. It is played on an 8x8 grid with 16 pieces for each player: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece moves in specific patterns, and players take turns to move their pieces with the goal of controlling the board. Checkmate occurs when a player's king is placed in a position where it is under attack and cannot escape capture, either by moving to a safe square or by being defended by another piece. The game ends immediately when a player's king is checkmated. In this project, I reversed engineered this game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio, allowing two users to play the android application from any smartphone device.
 </p>
 
+
+<p align="center">
+
 ## Data Structures I Used:
 I created an 8x8 2D array of **GridButton Wrappers** each containing a customized Image buttons so that each Grid Button/Chess Piece on the board can be swapped/changed with ease. Each Grid Button has specific information such as:
   - Row Number
@@ -18,6 +21,9 @@ I created an 8x8 2D array of **GridButton Wrappers** each containing a customize
   - Image (i.e. Pawn, Rook, Knight, Queen, Bishop, King, or else 0/null)
   - Layout parameters that contain row & column info that can easily be changed!
 
+  <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
+    width = "300"/>
+  
 ```java
 public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
     protected int row;
@@ -69,6 +75,9 @@ public class GridButtonWrapper {
   GridButtonWrapper(GridButton gb) {this.gb = gb;}
 }
 ```
+
+
+</p>
 
 <p align="center">
   <img align="center" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
