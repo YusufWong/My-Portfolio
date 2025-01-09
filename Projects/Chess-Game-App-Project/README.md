@@ -1,15 +1,10 @@
 # Android Chess Game App using Java
 
-<p align="center">
-  <img align="center" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
-    width = "300"/>
-</p>
-
-
 ## **Background**
-<p align="left">
-    <img align="left" style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/    main/Projects/Chess-Game-App-Project/wizards_chess.gif"
+<p align="center">
+    <img align="right" style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/   main/Projects/Chess-Game-App-Project/wizards_chess.gif"
     width = "300"/>
+
     Chess is a strategic board game played between two players, where the objective is to checkmate the opponent's king. It is played on an 8x8 grid with 16 pieces for each player: one king, one queen, two rooks, two knights, two bishops, and eight pawns. Each piece moves in specific patterns, and players take turns to move their pieces with the goal of controlling the board. Checkmate occurs when a player's king is placed in a position where it is under attack and cannot escape capture, either by moving to a safe square or by being defended by another piece. The game ends immediately when a player's king is checkmated. In this project, I reversed engineered this game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio, allowing two users to play the android application from any smartphone device.
 </p>
 
