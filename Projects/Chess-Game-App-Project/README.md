@@ -17,7 +17,7 @@ I created an 8x8 2D array of **GridButton Wrappers** each containing a customize
 
 <p align="center">
  <img align="left" style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
-    height = "1000"/>
+    height = "800"/>
 
 ```java
 public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
@@ -33,9 +33,7 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
 
     public GridButton(Context context) { super(context); }
     public GridButton(Context context, AttributeSet attrs) { super(context, attrs); }
-    public GridButton(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-    }
+    public GridButton(Context context, AttributeSet attrs, int defStyle) { super(context, attrs, defStyle); }
 
     public GridButton(Context context, int row, int column) {
         super(context);
@@ -45,23 +43,17 @@ public abstract class GridButton extends androidx.appcompat.widget.AppCompatImag
         params.width = 0; // this will never be changed
         params.height = 0; // this will never be changed
     }
-
     public void setImageResource() {
-        this.setImageResource(image);
-    }
-
+        this.setImageResource(image);}
     public void updateParams() {
         params.width = 0; // this will never be changed
         params.height = 0; // this will never be changed
     }
-
     public void updateParams(int row, int column) {
         setRow(row);
         setColumn(column);
         params.rowSpec = GridLayout.spec(getRow(), 1, 1);
-        params.columnSpec = GridLayout.spec(getColumn(), 1, 1);
-    }
-
+        params.columnSpec = GridLayout.spec(getColumn(), 1, 1); }
     public GridLayout.LayoutParams getLayoutParams() { return params; }
 }
 
