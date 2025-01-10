@@ -68,6 +68,9 @@ public class GridButtonWrapper {
 
 ## Initializing the Data
 I initialized all the gridButtons on the board by coding the following: <br /> <br /> <br />
+<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/Initialized_ChessBoard.png"
+    height = "800"/>
+
 ```java
 void initializeButtons() {
 
@@ -109,8 +112,6 @@ void initializeButtons() {
     }
 }
 ```
-<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/Initialized_ChessBoard.png"
-    height = "800"/>
 **Note:** gridButtonWrapper[0][0] represents a piece on top left corner of the board & ridButtonWrapper[7][7] represents the bottom right corner. **Note:** all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!). Each piece requires to be either white or black
 </p>
 
