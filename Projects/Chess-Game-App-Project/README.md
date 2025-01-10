@@ -17,7 +17,7 @@ I created an 8x8 2D array of **GridButton Wrappers** each containing a customize
 
 <p align="center">
  <img align="left" style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
-    height = "800"/>
+    height = "1000"/>
 
 ```java
 public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
