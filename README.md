@@ -4,16 +4,11 @@
     width="400" />
 </p>
 
-Here, I showcase projects during my Academic career. Click on a project title to explore its details!
-
-
-## About
-
 This portfolio highlights my journey in engineering and programming. Each project includes:
 - An overview of the project goals.
 - Visuals, such as CAD designs, simulations, or final products.
 - Links to code or technical documentation.
-
+Click on a project title to explore its details!
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
 <p align="center">
