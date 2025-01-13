@@ -198,7 +198,7 @@ void initializeButtons() {
 I created the swapButtons method to move chess pieces on the board:
 <p align="center">
 <img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/move_piece.png"
-    width = "250"/>
+    width = "400"/>
     
 ```java
 public void swapButtons(GridButtonWrapper gbw1, GridButtonWrapper gbw2) {
