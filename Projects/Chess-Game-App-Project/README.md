@@ -245,7 +245,7 @@ public void movePiece(Context context, GridLayout gridLayout, GridButtonWrapper 
 
 Finally, I also employed the ***Listener*** function for each button that is clicked as part of the process to move chess pieces on the board. The bottom image shows chess pieces moved on the board!
 <p align="left">
-<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/moved_Pieces.png"
+<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/moved_pieces.png"
     height = "600"/>
 
 ```java
