@@ -242,7 +242,12 @@ public void movePiece(Context context, GridLayout gridLayout, GridButtonWrapper 
     gridLayout.addView(B.getGridButton());
 }
 ```
-Finally, I also employed the ***Listener*** function for each button that is clicked as part of the process to move chess pieces on the board:
+
+<p align="left">
+<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/moved_Pieces.png"
+    width = "250"/>
+Finally, I also employed the ***Listener*** function for each button that is clicked as part of the process to move chess pieces on the board. The bottom image shows chess pieces moved on the board!
+
 ```java
 public View.OnClickListener myListener = (v) -> {
     if (primaryButton == null) {
@@ -272,8 +277,8 @@ public View.OnClickListener myListener = (v) -> {
     }
 }
 ```
-
-## Implemented Features:
+</p>
+## Additional Feature: Chronometer
 
 
 
@@ -300,6 +305,9 @@ Layout params that contain row & column info that can EASILY be manipulated!
 
 {rpkec}
 
+
+
+What to include in README
 Project title
 project description
 table opf contents
@@ -323,52 +331,3 @@ installation
   <img src="C:\Users\yusuf\My-Portfolio\Projects\SelfDrivingVehicleControlModeling-Proj\images\CARLA_carDriving.png" />
 </p>
 
-
-## Garbage:
-## Initializing Data Structure:
-I initialized all the grid buttons on the Board using the following code:
-```java
-public abstract class GridButton extends androidx.appcompat.widget.AppCompatImageButton {
-
-    protected int row;
-    protected int column;
-    protected GridLayout.LayoutParams params = new GridLayout.LayoutParams();
-    protected int image;
-
-    public int getRow() {return row;}
-    public void setRow(int row) {this.row = row;}
-    public int getColumn() {return column;}
-    public void setColumn(int column) {this.column = column;}
-
-    public GridButton(Context context) {super(context);}
-    public GridButton(Context context, AttributeSet attrs) {super(context, attrs);}
-    public GridButton(Context context, AttributeSet attrs, int defStyleAttr) {super(context, attrs, defStyleAttr);}
-    public GridButton(Context context, int row, int column) {super(context);
-        setRow(row);
-        setColumn(column);
-        updateParams(row, column);
-        params.width = 8; //this will never be changed
-        params.height = 8; //this will never be changed
-    }
-
-    public void setImageResource() {this.setImageResource(image);}
-
-    public void updateParams() {
-        params.width = 0; //this will never be changed
-        params.height = 8; //this will never be changed
-    }
-
-    public void updateParams(int row, int column) {
-        setRow(row);
-        setColumn(column);
-        params.rowSpec = GridLayout.spec(getRow(), 1, 1, GridLayout.FILL, 1);
-        params.columnSpec = GridLayout.spec(getColumn(), 1, 1, GridLayout.FILL, 1);
-    }
-
-    public GridLayout.LayoutParams getLayoutParams() {return params;}
-}
-```
-
-[0][0] represents top left corner of the board & [7][7] represents the bottom right corner 
-**Note** that all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!)
-Each piece requires to be either white or black
