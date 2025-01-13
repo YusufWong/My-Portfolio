@@ -307,8 +307,7 @@ public void rotatePieces() {
 
 ## Missing Features & Drawbacks
 <img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/bad_Pawn2.png"
-    height = "300"
-     />
+    height = "250" />
 
 - No undo button (unfortunately)
 - No Restart/Reset Board button (users must restart app to restart game)No check/checkmate (users must check each other’s kings themselves)
@@ -335,15 +334,3 @@ public void rotatePieces() {
 - Allow the pawn to convert to a Queen (when reaching the other end of the board)
 - Undo Button (allow user to undo a move)
 - Reset Button (reset/reinitialize pieces on the board)
-
-
-
-
-What to include in README
-Project title
-project description
-table opf contents
-how to install project
-
-installation
-
