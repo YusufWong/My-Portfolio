@@ -306,6 +306,19 @@ public void rotatePieces() {
 ```
 
 ## Missing Features & Drawbacks
+<p align="left">
+- No undo button (unfortunately)
+- No Restart/Reset Board button (users must restart app to restart game)
+- No check/checkmate (users must check each other’s kings themselves)
+    - This part was hard because I’d have to check all the opponent’s pieces and see if it’s position can directly attack the king
+    - Check Mate is even harder because it needs to assess at least 1 counter move out of all possible moves that would allow the king to get OUT of check (this requires a lot of excess coding, perhaps even dynamic algorithms??)
+- Pawn doesn’t convert to Queen at the end of the board, as shown in the image on the right 🡪
+    <img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/bad_pawn.png"
+        width = "300"/>
+</p>
+
+
+
 
 
 
@@ -318,17 +331,6 @@ public void rotatePieces() {
 - Learned how to organize classes and subsets/children of classes (i.e. creating an abstract Piece class within an abstract grid Button class [as shown in the code])
 - Don’t let perfectionism impede the main goal of a project. I fell into the trap of trying to make my project behave exactly as any other chess game engine. Even after completing my project, I realized I didn’t have time to incorporate the check/checkmate portion of chess because of the lack of time.  
 
-## Data Structures Used
-Customized my own grid Button that had specific information such as:
-Row
-Column
-Image (if any, or else 0/null!)
-Layout params that contain row & column info that can EASILY be manipulated!
-
-{rpkec}
-
-
-
 What to include in README
 Project title
 project description
@@ -336,20 +338,4 @@ table opf contents
 how to install project
 
 installation
-
-
-
-
-
-
-
-
-
-
-## Background
-
-<p align="center">
-  <img src="C:\Users\yusuf\My-Portfolio\Projects\SelfDrivingVehicleControlModeling-Proj\images\CARLA_logo.jpg" />
-  <img src="C:\Users\yusuf\My-Portfolio\Projects\SelfDrivingVehicleControlModeling-Proj\images\CARLA_carDriving.png" />
-</p>
 
