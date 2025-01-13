@@ -300,9 +300,7 @@ public void rotatePieces() {
 }
 ```
 <p align="left">
-    <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt1.png"
-        height = "550"/>
-    <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt2.png"
+    <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/chronometer_rotation.png"
         height = "550"/>
 </p>
 
