@@ -15,6 +15,9 @@ I created an 8x8 2D array of **GridButton Wrappers** each containing a customize
   - Image (i.e. Pawn, Rook, Knight, Queen, Bishop, King, or else 0/null)
   - Layout parameters that contain row & column info that can easily be changed!
 
+I used a wrapper, abstract class called GridButtonWrapper to “wrap” different types of abstract pieces, like Rooks, Queens, null/empty spots, etc and to easily swap them whenever needed. This is because in Java, the information about each object is passed by value, not by reference, unlike C++. In C++, it would’ve been easier because then I could’ve swapped pointers and updated the parameters of each object much more easily, than having to create a wrapper in Java.
+
+
 <p align="center">
  <img align="right" style="float: right;" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/Chess_Game_Demo.gif"
     height = "850"/>
@@ -64,30 +67,103 @@ public class GridButtonWrapper {
 ```
 </p>
 
+## Rook Piece Example
+I created an Abstract Class called Piece that ***must*** specify a specific type of piece (i.e. Queen, Rook, Bishop, etc) when a new piece is created. It contains a params variable that specifies the row and column information. Here is an example of defining a Rook as a Piece on the Chess Board:
+```java
+import android.content.Context;
+import android.util.AttributeSet;
+import android.widget.ImageButton;
+
+public class Rook extends Piece {
+    public Rook(Context context) {super(context);}
+    public Rook(Context context, AttributeSet attrs) {super(context, attrs);}
+    public Rook(Context context, AttributeSet attrs, int defStyle) {super(context, attrs, defStyle);    }
+    public Rook(Context context, int row, int column, boolean white) {
+        super(context);
+
+        updateParams();
+        updateParams(row, column);
+
+        this.white = white;
+        if (white) {
+            this.image = R.drawable.rook_white;
+            this.setImageResource(image);
+        } else {
+            this.image = R.drawable.rook_black;
+            this.setImageResource(image);
+        }
+    }
+
+    @Override
+    public boolean validMove(GridButtonWrapper[][] gridButtonWrapper, GridButton B) {
+
+        if (sameButton(B) || (B instanceof Piece && sameColors(B))) {
+            return false;
+        }
+
+        int A_row = getRow();
+        int A_column = getColumn();
+
+        int B_row = B.getRow();
+        int B_column = B.getColumn();
+
+        int row_diff = B_row - A_row;
+        int column_diff = B_column - A_column;
+
+        boolean row_difff = (row_diff != 0);
+        boolean column_difff = (column_diff != 0);
+
+        // Following uses an XOR statement that is TRUE iff either row_diff != 0 OR column_diff != 0
+        if (row_difff ^ column_difff) {
+
+            int row_signum = Integer.signum(row_diff);
+            int column_signum = Integer.signum(column_diff);
+
+            //Check for obstructions along the path
+            if (row_difff) { //Moving vertically
+                for (int i = A_row + row_signum; i != B_row; i += row_signum) {
+                    if (gridButtonWrapper[i][A_column].getGridButton() instanceof Piece) {
+                        return false; //Obstruction found
+                    }
+                }
+            } else { //Moving horizontally
+                for (int j = A_column + column_signum; j != B_column; j += column_signum) {
+                    if (gridButtonWrapper[A_row][j].getGridButton() instanceof Piece) {
+                        return false; //Obstruction found
+                    }
+                }
+            }
+            return true; //No obstructions, valid move
+        }
+
+        return false;
+    }
+}
+```
 
 
 ## Initializing the Data
 I initialized all the gridButtons on the board by coding the following:
 <p align="center">
-<img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/Initialized_ChessBoard.png"
+<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/Initialized_ChessBoard.png"
     height = "800"/>
 
 ```java
 void initializeButtons() {
 
     // Black Pieces in Row 0
-    gridButtonWrapper[0][0] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 0, column: 0, white: false));
-    gridButtonWrapper[0][1] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 0, column: 1, white: false));
-    gridButtonWrapper[0][2] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 0, column: 2, white: false));
-    gridButtonWrapper[0][3] = new GridButtonWrapper(new King(getApplicationContext(), row: 0, column: 3, white: false));
-    gridButtonWrapper[0][4] = new GridButtonWrapper(new Queen(getApplicationContext(), row: 0, column: 4, white: false));
-    gridButtonWrapper[0][5] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 0, column: 5, white: false));
-    gridButtonWrapper[0][6] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 0, column: 6, white: false));
-    gridButtonWrapper[0][7] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 0, column: 7, white: false));
+    gridButtonWrapper[0][0] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 0, column: 0, black: false));
+    gridButtonWrapper[0][1] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 0, column: 1, black: false));
+    gridButtonWrapper[0][2] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 0, column: 2, black: false));
+    gridButtonWrapper[0][3] = new GridButtonWrapper(new King(getApplicationContext(), row: 0, column: 3, black: false));
+    gridButtonWrapper[0][4] = new GridButtonWrapper(new Queen(getApplicationContext(), row: 0, column: 4, black: false));
+    gridButtonWrapper[0][5] = new GridButtonWrapper(new Bishop(getApplicationContext(), row: 0, column: 5, black: false));
+    gridButtonWrapper[0][6] = new GridButtonWrapper(new Knight(getApplicationContext(), row: 0, column: 6, black: false));
+    gridButtonWrapper[0][7] = new GridButtonWrapper(new Rook(getApplicationContext(), row: 0, column: 7, black: false));
 
     // Black Pawns in Row 1
     for (int j = 0; j < 8; j++) {
-        gridButtonWrapper[1][j] = new GridButtonWrapper(new Pawn(getApplicationContext(), row: 1, j, white: false));
+        gridButtonWrapper[1][j] = new GridButtonWrapper(new Pawn(getApplicationContext(), row: 1, j, black: false));
     }
 
     // White Pawns in Row 6
@@ -113,16 +189,89 @@ void initializeButtons() {
     }
 }
 ```
-**Note:** gridButtonWrapper[0][0] represents a piece on top left corner of the board & ridButtonWrapper[7][7] represents the bottom right corner. **Note:** all the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!). Each piece requires to be either white or black
+**Note:** gridButtonWrapper **[0][0]** represents a *black rook* on top left corner of the board & gridButtonWrapper **[7][7]** represents a *white rook* on the bottom right corner. Each piece requires to be either white or black\
+ All the buttons that do not represent a chess piece are **initialized** as empty pieces! (basically null piece with a null resource image!).
 </p>
 
 
-
-
 ## **Data Save/Retrieval Methods**
-I created two functions to essentially swap pieces/gridButtons on the board with ease:
+I created the swapButtons method to move chess pieces on the board:
+```java
+public void swapButtons(GridButtonWrapper gbw1, GridButtonWrapper gbw2) {
+        GridButton temp = gbw1.getGridButton(); // Corrected: Access using getter
 
+        gbw1.setGridButton(gbw2.getGridButton()); // Corrected: Access and set using getters/setters
+        gbw2.setGridButton(temp);
+}
+```
+I also designed the movePiece method to change the view of the boardlayout once the pieces were swapped:
+```java
+public void movePiece(Context context, GridLayout gridLayout, GridButtonWrapper A, GridButtonWrapper B) {
 
+    if (A == null || B == null || A.getGridButton() == null || B.getGridButton() == null) {
+        return; // Handle null cases to prevent crashes
+    }
+
+    gridLayout.removeView(A.getGridButton());
+    gridLayout.removeView(B.getGridButton());
+
+    int A_row = A.getGridButton().getRow();
+    int A_column = A.getGridButton().getColumn();
+
+    int B_row = B.getGridButton().getRow();
+    int B_column = B.getGridButton().getColumn();
+
+    if (B.getGridButton() instanceof Piece) {
+        GridButton empty = new Empty(context, B_row, B_column); // Store the new Empty in a variable
+        empty.setOnClickListener(myListener);
+        empty.updateParams(B_row, B_column);
+        B.setGridButton(empty); // Correctly set the new Empty button
+    }
+
+    A.getGridButton().updateParams(B_row, B_column);
+    B.getGridButton().updateParams(A_row, A_column);
+
+    swapButtons(A, B);
+
+    gridLayout.addView(A.getGridButton());
+    gridLayout.addView(B.getGridButton());
+}
+```
+Finally, I also employed the ***Listener*** function for each button that is clicked as part of the process to move chess pieces on the board:
+<p align="center">
+<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/Initialized_ChessBoard.png"
+    height = "800"/>
+
+```java
+public View.OnClickListener myListener = (v) -> {
+    if (primaryButton == null) {
+        primaryButton = (GridButton) v;
+        primaryButton.setBackgroundColor(Color.GREEN);
+    } else {
+        if (secondaryButton == null) {
+            secondaryButton = (GridButton) v;
+            secondaryButton.setBackgroundColor(Color.GREEN);
+            if (primaryButton instanceof Piece && (whiteTurn = ((Piece) primaryButton).iswhite()) && ((Piece) primaryButton).validMove(gridButtonWrapper, secondaryButton)) {
+                movePiece(context, gridLayout, gridButtonWrapper[primaryButton.getRow()][primaryButton.getColumn()], gridButtonWrapper[secondaryButton.getRow()][secondaryButton.getColumn()]);
+                whiteTurn = whiteTurn;
+                rotatePieces();
+                if (whiteTurn) {
+                    chronometerTop.pauseChronometer();
+                    chronometerBottom.startChronometer();
+                } else {
+                    chronometerBottom.pauseChronometer();
+                    chronometerTop.startChronometer();
+                }
+            }
+            primaryButton.setBackgroundColor(e);
+            secondaryButton.setBackgroundColor(e);
+            primaryButton = null;
+            secondaryButton = null;
+        }
+    }
+}
+```
+</p>
 
 ## Implemented Features:
 
