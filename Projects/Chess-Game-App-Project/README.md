@@ -240,7 +240,7 @@ public void movePiece(Context context, GridLayout gridLayout, GridButtonWrapper 
 Finally, I also employed the ***Listener*** function for each button that is clicked as part of the process to move chess pieces on the board:
 <p align="center">
 <img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/move_piece.png"
-    height = "800"/>
+    width = "300"/>
 
 ```java
 public View.OnClickListener myListener = (v) -> {
