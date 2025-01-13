@@ -197,7 +197,7 @@ void initializeButtons() {
 ## **Data Save/Retrieval Methods**
 <p align="left">
 <img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/move_piece.png"
-    width = "250"/>
+    width = "225"/>
 I created the swapButtons method to move chess pieces on the board:
 
 ```java
@@ -245,8 +245,8 @@ public void movePiece(Context context, GridLayout gridLayout, GridButtonWrapper 
 
 Finally, I also employed the ***Listener*** function for each button that is clicked as part of the process to move chess pieces on the board. The bottom image shows chess pieces moved on the board!
 <p align="left">
-<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/moved_chess_pieces.png"
-    height = "600"/>
+<img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/moved_chess_pieces.png"
+    height = "550"/>
 
 ```java
 public View.OnClickListener myListener = (v) -> {
@@ -279,10 +279,32 @@ public View.OnClickListener myListener = (v) -> {
 ```
 </p>
 
-## Additional Feature: Chronometer
-
-
-
+## Additional Features: Chronometer & 180° Board Rotation:
+I implemented a Chronometer Viewer for both players, as well as an automatic rotation of the chessboard so that the opposing player can also play:
+```java
+public void rotatePieces() {
+    //ROTATING IMAGE ON BUTTON: https://stackoverflow.com/questions/33915142/android-rotate-image-inside-the-button
+    float deg;
+    for (int i = 0; i < maxRows; i++) { // i = row
+        for (int j = 0; j < maxColumns; j++) { // j = column
+            deg = gridButtonWrapper[i][j].gb.getRotation() + 180F;
+            gridButtonWrapper[i][j].gb.setRotation(deg);
+            gridButtonWrapper[i][j].gb.animate().rotation(deg).setInterpolator(new AccelerateDecelerateInterpolator());
+            //rotateAnimation.setDuration(10);
+        }
+    }
+    deg = chronometerBottom.getRotation() + 180F;
+    chronometerBottom.animate().rotation(deg).setInterpolator(new AccelerateDecelerateInterpolator());
+    deg = chronometerTop.getRotation() + 180F;
+    chronometerTop.animate().rotation(deg).setInterpolator(new AccelerateDecelerateInterpolator());
+}
+```
+<p align="center">
+<img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt1.png"
+    height = "550"/>
+<img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt2.png"
+    height = "550"/>
+</p>
 
 ## Missing Features & Drawbacks
 
