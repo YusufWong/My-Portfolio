@@ -281,6 +281,11 @@ public View.OnClickListener myListener = (v) -> {
 
 ## Additional Features: Chronometer & 180° Board Rotation:
 I implemented a Chronometer Viewer for both players, as well as an automatic rotation of the chessboard so that the opposing player can also play:
+<p align="center">
+    <img align="center" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/chronometer_rotation.png"
+        width = "800"/>
+</p>
+
 ```java
 public void rotatePieces() {
     //ROTATING IMAGE ON BUTTON: https://stackoverflow.com/questions/33915142/android-rotate-image-inside-the-button
@@ -299,10 +304,6 @@ public void rotatePieces() {
     chronometerTop.animate().rotation(deg).setInterpolator(new AccelerateDecelerateInterpolator());
 }
 ```
-<p align="center">
-    <img align="center" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/chronometer_rotation.png"
-        height = "550"/>
-</p>
 
 ## Missing Features & Drawbacks
 
