@@ -196,6 +196,10 @@ void initializeButtons() {
 
 ## **Data Save/Retrieval Methods**
 I created the swapButtons method to move chess pieces on the board:
+<p align="center">
+<img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/move_piece.png"
+    width = "300"/>
+    
 ```java
 public void swapButtons(GridButtonWrapper gbw1, GridButtonWrapper gbw2) {
         GridButton temp = gbw1.getGridButton(); // Corrected: Access using getter
@@ -204,7 +208,10 @@ public void swapButtons(GridButtonWrapper gbw1, GridButtonWrapper gbw2) {
         gbw2.setGridButton(temp);
 }
 ```
+</p>
+
 I also designed the movePiece method to change the view of the boardlayout once the pieces were swapped:
+
 ```java
 public void movePiece(Context context, GridLayout gridLayout, GridButtonWrapper A, GridButtonWrapper B) {
 
@@ -274,6 +281,12 @@ public View.OnClickListener myListener = (v) -> {
 </p>
 
 ## Implemented Features:
+
+
+
+
+## Missing Features & Drawbacks
+
 
 
 ## What I Learned
