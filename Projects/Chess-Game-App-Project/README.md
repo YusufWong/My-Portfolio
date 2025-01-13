@@ -299,11 +299,11 @@ public void rotatePieces() {
     chronometerTop.animate().rotation(deg).setInterpolator(new AccelerateDecelerateInterpolator());
 }
 ```
-<p align="center">
-<img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt1.png"
-    height = "550"/>
-<img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt2.png"
-    height = "550"/>
+<p align="left">
+    <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt1.png"
+        height = "550"/>
+    <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/rotation_pt2.png"
+        height = "550"/>
 </p>
 
 ## Missing Features & Drawbacks
