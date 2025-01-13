@@ -307,7 +307,7 @@ public void rotatePieces() {
 
 ## Missing Features & Drawbacks
 <img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/bad_Pawn2.png"
-    height = "400"
+    height = "300"
      />
 
 - No undo button (unfortunately)
