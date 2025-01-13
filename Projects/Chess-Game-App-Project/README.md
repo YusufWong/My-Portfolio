@@ -197,9 +197,9 @@ void initializeButtons() {
 ## **Data Save/Retrieval Methods**
 <p align="left">
 <img align="right" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/move_piece.png"
-    width = "400"/>
+    width = "250"/>
 I created the swapButtons method to move chess pieces on the board:
-    
+
 ```java
 public void swapButtons(GridButtonWrapper gbw1, GridButtonWrapper gbw2) {
         GridButton temp = (GridButton) gbw1.gb(); 
