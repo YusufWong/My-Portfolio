@@ -1,7 +1,5 @@
-<p align="center">
-
 # WELCOME TO MY PORTFOLIO!
-
+<p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Welcome.jpg"
     width="400" />
 </p>
@@ -11,7 +9,7 @@ This portfolio highlights my journey in engineering and programming. Each projec
 - Visuals, such as CAD designs, simulations, or final products.
 - Links to code or technical documentation.
 
-Click on a project title to explore its details!
+**Click on a project title/image to explore its details!**
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
 <p align="center">
