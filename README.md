@@ -3,7 +3,17 @@
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Welcome.jpg"
     width="400" />
 </p>
+
 Here, I showcase projects during my Academic career. Click on a project title to explore its details!
+
+
+## About
+
+This portfolio highlights my journey in engineering and programming. Each project includes:
+- An overview of the project goals.
+- Visuals, such as CAD designs, simulations, or final products.
+- Links to code or technical documentation.
+
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
 <p align="center">
@@ -34,11 +44,14 @@ I utilized Scikit-learn machine learning and Pandas data manipulation Python lib
 I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
 
-## [Baja SAE Senior Design SolidWorks Project](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Baja-SAE-Senior-Design-Project)	
+## [Baja SAE Senior Design SolidWorks Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf)	
 <p align="center">
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Baja_SolidWorks.png"
-  />
+<a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf">  
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Baja_SolidWorks.png"/>
+  </a>
 </p>
+
+
 I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease. 
 
 
@@ -73,44 +86,3 @@ I utilized SolidWorks to perform stress data analysis and run validation tests o
   </a>
 </p>
 I ran a simulation of air flow at an inlet velocity and attack angle on an aircraft wing using 3D simulation software with over 3000 iterations to analyze fluid flow, such as pressure differences and velocity fields.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## About
-
-This portfolio highlights my journey in engineering and programming. Each project includes:
-- An overview of the project goals.
-- Visuals, such as CAD designs, simulations, or final products.
-- Links to code or technical documentation.
-
-
-
-
-## Used By
-
-This project is used by the following companies:
-
-- Company 1
-- Company 2
