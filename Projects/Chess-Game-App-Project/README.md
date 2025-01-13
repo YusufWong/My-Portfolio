@@ -306,12 +306,14 @@ public void rotatePieces() {
 ```
 
 ## Missing Features & Drawbacks
-<img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/bad_pawn.png" />
+<img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/bad_pawn.png"
+    height = "400"
+     />
 
 - No undo button (unfortunately)
 - No Restart/Reset Board button (users must restart app to restart game)No check/checkmate (users must check each other’s kings themselves)
     - This part was hard because I’d have to check all the opponent’s pieces and see if it’s position can directly attack the king
-    - Check Mate is even harder because it needs to assess at least 1 counter move out of all possible moves that would allow the king to get OUT of check (this requires a lot of excess coding, perhaps even dynamic algorithms??)
+    - Check Mate is even harder because it needs to assess at least 1 counter move out of all possible moves that would allow the king to get OUT of check (this requires a lot of excess coding, perhaps even dynamic algorithms?)
 - Pawn doesn’t convert to Queen at the end of the board, as shown in the image on the right 🡪
 
 
