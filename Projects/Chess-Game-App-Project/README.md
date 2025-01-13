@@ -314,13 +314,12 @@ public void rotatePieces() {
 - No Restart/Reset Board button (users must restart app to restart game)No check/checkmate (users must check each other’s kings themselves)
     - This part was hard because I’d have to check all the opponent’s pieces and see if it’s position can directly attack the king
     - Check Mate is even harder because it needs to assess at least 1 counter move out of all possible moves that would allow the king to get OUT of check (this requires a lot of excess coding, perhaps even dynamic algorithms?)
-- Pawn doesn’t convert to Queen at the end of the board, as shown in the image on the right 🡪
+- Pawn doesn’t convert to Queen at the end of the board, as shown in the image here 🡪
 
-
-
-
-
-
+## Challenges I’ve Overcome		
+- Biggest challenge was understanding the architecture of Android (such as which objects I had to use to design this game from scratch) and determining the best data-structure to dynamically implement (without much coding/messing around with the xml file) and organize all the 64 buttons on the board.
+    - It took me several days to figure out that I simply had to create a GridLayout.LayoutParams params variable for each instance of my customized gridButton. Only then could I easily specify and dynamically change the row and column of any button on the board!
+- Another big challenge was experimenting with switching buttons. I initially had problems swapping buttons (i.e. a rook with a blank or eating an opponent’s piece) until I spent a few more days experimenting with gridButton WRAPPERS, which basically made all the moves on the chessboard POSSIBLE! (by swapping pointers to gridButtons with ease!)
 
 ## What I Learned
 - **Learning** how to Google/Search on stackoverflow
@@ -330,6 +329,15 @@ public void rotatePieces() {
 - Understood how to manipulate/customized my own grid Buttons by incorporating my own params and image variables associated with each type of piece/null piece
 - Learned how to organize classes and subsets/children of classes (i.e. creating an abstract Piece class within an abstract grid Button class [as shown in the code])
 - Don’t let perfectionism impede the main goal of a project. I fell into the trap of trying to make my project behave exactly as any other chess game engine. Even after completing my project, I realized I didn’t have time to incorporate the check/checkmate portion of chess because of the lack of time.  
+
+## Features I would’ve added, if given more time:
+- Really wished I had time to add the check/checkmate portion of the game. I spent several weeks coding/organizing the data structure of the game engine itself, but didn’t have the time to really understand how to make sure that the opponent’s king is in check and that the opponent had to make a valid move to get out of check before the next user’s turn
+- Allow the pawn to convert to a Queen (when reaching the other end of the board)
+- Undo Button (allow user to undo a move)
+- Reset Button (reset/reinitialize pieces on the board)
+
+
+
 
 What to include in README
 Project title
