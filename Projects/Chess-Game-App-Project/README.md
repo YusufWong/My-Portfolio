@@ -15,7 +15,7 @@ I created an 8x8 2D array of **GridButton Wrappers** each containing a customize
   - Image (i.e. Pawn, Rook, Knight, Queen, Bishop, King, or else 0/null)
   - Layout parameters that contain row & column info that can easily be changed!
 
-I used a wrapper, abstract class called GridButtonWrapper to “wrap” different types of abstract pieces, like Rooks, Queens, null/empty spots, etc and to easily swap them whenever needed. This is because in Java, the information about each object is passed by value, not by reference, unlike C++. In C++, it would’ve been easier because then I could’ve swapped pointers and updated the parameters of each object much more easily, than having to create a wrapper in Java.
+I used a wrapper, abstract class called GridButtonWrapper to “wrap” different types of abstract pieces, like Rooks, Queens, null/empty spots, etc and to easily swap them whenever needed. **This is because in Java, the information about each object is passed by value, not by reference, unlike C++. In C++, it would’ve been easier because then I could’ve swapped pointers and updated the parameters of each object much more easily, than having to create a wrapper in Java.**
 
 
 <p align="center">
@@ -202,10 +202,9 @@ I created the swapButtons method to move chess pieces on the board:
     
 ```java
 public void swapButtons(GridButtonWrapper gbw1, GridButtonWrapper gbw2) {
-        GridButton temp = gbw1.getGridButton(); // Corrected: Access using getter
-
-        gbw1.setGridButton(gbw2.getGridButton()); // Corrected: Access and set using getters/setters
-        gbw2.setGridButton(temp);
+        GridButton temp = (GridButton) gbw1.gb(); 
+        gbw1.gb = (GridButton) gbw2.gb; 
+        gbw2.gb = temp;
 }
 ```  
 </p>
