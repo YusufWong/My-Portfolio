@@ -64,10 +64,11 @@ public class GridButtonWrapper {
 ```
 </p>
 
-<p align="center">
+
 
 ## Initializing the Data
 I initialized all the gridButtons on the board by coding the following:
+<p align="center">
 <img align="left" src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Chess-Game-App-Project/images/Initialized_ChessBoard.png"
     height = "800"/>
 
