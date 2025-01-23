@@ -1,7 +1,7 @@
 # WELCOME TO MY PORTFOLIO!
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Welcome.jpg"
-    width="400" />
+    height="450" />
 </p>
 
 This portfolio highlights my journey in both Mechanical and Computer Engineer. Each project includes:
@@ -9,8 +9,8 @@ This portfolio highlights my journey in both Mechanical and Computer Engineer. E
 - Visuals, such as CAD designs, simulations, or final products.
 - Snippets of code and/or technical documentation.
 
-[Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume)
-[Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript)
+[Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf) \
+[Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)
 
 **Click on a project title/image to explore its details!**
 
