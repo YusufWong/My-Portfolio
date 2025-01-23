@@ -26,7 +26,7 @@ The goal of this project is to develop a controller that enables a vehicle to au
 
 ## Objectives
 <img align="left"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/VehicleControlStrategyArchitecture.png" 
-  height = "800"
+  height = "400"
   />
 <p align="justify"> 
 Program Driving Simulation using: 
