@@ -12,9 +12,9 @@ Here is a 1-minute driving simulation of an autonomous car driving on a racetrac
 
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_logo.jpg"
-  width = "400" />
+  width = "3500" />
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/SimulatorWithPython.png"
-  width = "600" />
+  width = "650" />
 </p>
 
 
