@@ -8,8 +8,6 @@ This portfolio highlights my journey in both Mechanical and Computer Engineer. E
 - An overview of the project goals.
 - Visuals, such as CAD designs, simulations, or final products.
 - Snippets of code and/or technical documentation.
-
-
 **Click on a project title/image to explore its details!**
 
 Here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf)! \
@@ -44,7 +42,8 @@ I utilized Scikit-learn machine learning and Pandas data manipulation Python lib
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/README.md">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif"
-    height = "600" /> 
+    height = "600" 
+    width = "350" /> 
 </p>
 I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
