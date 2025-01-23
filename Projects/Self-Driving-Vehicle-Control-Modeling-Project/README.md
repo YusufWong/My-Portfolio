@@ -24,7 +24,8 @@ For this project, I used a Software called **CARLA**, an open source autonomous 
 
 The goal of this project is to develop a controller that enables a vehicle to autonomously follow a race track by navigating through preset waypoints using Python and Vehicle Control Modeling Strategies. It’s similar to Google Maps, where you have a starting point and a destination, but here, the vehicle is automatically controlled to reach the destination while adhering to speed limits and roadway rules. For simplicity, the course provided predefined waypoints that specify both the path and the recommended velocity profile. Using Python, I implemented both lateral control for steering and longitudinal control for acceleration, braking, and throttle to ensure smooth and precise vehicle navigation.
 
-<img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/VehicleControlStrategyArchitecture.png" />
+<img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/VehicleControlStrategyArchitecture.png" 
+  width = "500" />
 <p align="justify"> 
 Program Driving Simulation using: 
  -Python
