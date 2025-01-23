@@ -1,7 +1,7 @@
 # WELCOME TO MY PORTFOLIO!
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Welcome.jpg"
-    height="450" />
+    height="400" />
 </p>
 
 This portfolio highlights my journey in both Mechanical and Computer Engineer. Each project includes:
@@ -12,14 +12,15 @@ This portfolio highlights my journey in both Mechanical and Computer Engineer. E
 
 **Click on a project title/image to explore its details!**
 
-Here's my [Resume]!(https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf) \
-Here's my [Transcript]!(https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)
+Here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf)! \
+Here's my [Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)!
 
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md">
-    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
+    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" 
+    height="500">
   </a>
 </p>
 I programmed a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
