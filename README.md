@@ -4,10 +4,13 @@
     width="400" />
 </p>
 
-This portfolio highlights my journey in engineering and programming. Each project includes:
+This portfolio highlights my journey in both Mechanical and Computer Engineer. Each project includes:
 - An overview of the project goals.
 - Visuals, such as CAD designs, simulations, or final products.
-- Links to code or technical documentation.
+- Snippets of code and/or technical documentation.
+
+[Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume)
+[Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript)
 
 **Click on a project title/image to explore its details!**
 
@@ -23,7 +26,9 @@ I programmed a 1-minute driving simulation of an autonomous car driving on a rac
 ##  [Pokémon Machine Learning Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pokemon-Machine-Learning-Project/PokemonMachineLearningProject.ipynb) 
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pokemon-Machine-Learning-Project/PokemonMachineLearningProject.ipynb">
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" />
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" 
+    height = "500"
+    />  
     </a>
 </p>
 I utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.

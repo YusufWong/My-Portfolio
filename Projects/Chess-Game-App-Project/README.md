@@ -67,7 +67,7 @@ public class GridButtonWrapper {
 ```
 </p>
 
-## Rook Piece Example
+### Rook Chess Piece Example
 I created an Abstract Class called Piece that ***must*** specify a specific type of piece (i.e. Queen, Rook, Bishop, etc) when a new piece is created. It contains a params variable that specifies the row and column information. Here is an example of defining a Rook as a Piece on the Chess Board:
 ```java
 import android.content.Context;
