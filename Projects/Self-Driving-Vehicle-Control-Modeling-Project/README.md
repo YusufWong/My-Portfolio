@@ -3,9 +3,9 @@
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project">
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
   </a>
-  Here is a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
-</p>
 
+</p>
+Here is a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
 
 
 ## Background
@@ -13,7 +13,7 @@
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_logo.jpg"
   width = "400" />
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_carDriving.png"
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/SimulatorWithPython.png"
   width = "400" />
 </p>
 
