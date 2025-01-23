@@ -18,9 +18,31 @@ Here is a 1-minute driving simulation of an autonomous car driving on a racetrac
 </p>
 
 
-In order to do this project, I had to use a Software called Carla which is basically an open source autonomous driving simulator. It’s an API for Vehicle control, so by using Python, I can communicate the car’s movements and interactions within the simulation. It’s like a client-server architecture where I’m sending commands from the Python Client into the Carla Server to drive a car on virtual roads and racetracks. This CARLA software is open-source and free for everyone to download and use, making it fair for everyone to test their code on this free simulator.
+For this project, I used a Software called **CARLA**, an open source autonomous driving simulator. It’s an API for Vehicle control, and by using Python, I can communicate the car’s movements and interactions within the simulation. It uses a client-server architecture, where the Python client sends commands to the CARLA server to control a vehicle on virtual roads and racetracks. CARLA is open-source and free for everyone to download and use, allowing researchers to test their code on this simulator.
 
-## Objectives
+## Overview & Objectives
+
+The goal of this project is to develop a controller that enables a vehicle to autonomously follow a race track by navigating through preset waypoints using Python and Vehicle Control Modeling Strategies. It’s similar to Google Maps, where you have a starting point and a destination, but here, the vehicle is automatically controlled to reach the destination while adhering to speed limits and roadway rules. For simplicity, the course provided predefined waypoints that specify both the path and the recommended velocity profile. Using Python, I implemented both lateral control for steering and longitudinal control for acceleration, braking, and throttle to ensure smooth and precise vehicle navigation.
+
+<img align="right"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/VehicleControlStrategyArchitecture.png" />
+<p align="justify"> 
+Program Driving Simulation using: 
+ -Python
+ -Vehicle Control Modelling Strategies
+Implement PID Control Methods
+ -Longitudinal Control (Throttle/Braking)
+ -Lateral Control (Steering)
+Utilized Python & CARLA Simulation Cohesively
+ -Control vehicle to follow race track
+ -Navigate through preset waypoints along predefined path (think Google Maps!)
+ -Receive information of relative position & velocity 
+ -Update/Command steering angle & throttle/velocity profiles from Python to CARLA
+ -Adjust Steering Angle & Speed Profiles as Needed
+ -Must reach waypoints at certain desired speeds
+</p>
+
+
+
 Program Driving Simulation using 
 - Python
 - Vehicle Control Modelling Strategies
