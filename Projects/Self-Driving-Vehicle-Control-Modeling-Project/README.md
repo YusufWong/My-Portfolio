@@ -25,23 +25,23 @@ For this project, I used a Software called **CARLA**, an open source autonomous 
 The goal of this project is to develop a controller that enables a vehicle to autonomously follow a race track by navigating through preset waypoints using Python and Vehicle Control Modeling Strategies. It’s similar to Google Maps, where you have a starting point and a destination, but here, the vehicle is automatically controlled to reach the destination while adhering to speed limits and roadway rules. For simplicity, the course provided predefined waypoints that specify both the path and the recommended velocity profile. Using Python, I implemented both lateral control for steering and longitudinal control for acceleration, braking, and throttle to ensure smooth and precise vehicle navigation.
 
 ## Objectives
-<img align="left"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/VehicleControlStrategyArchitecture.png" 
-  height = "400"
-  />
 <p align="justify"> 
+  <img align="left"  src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/VehicleControlStrategyArchitecture.png" 
+    height = "400"
+  />
 Program Driving Simulation using: 
- -Python
- -Vehicle Control Modelling Strategies
+ - Python
+ - Vehicle Control Modelling Strategies
 Implement PID Control Methods
-  -Longitudinal Control (Throttle/Braking)
- -Lateral Control (Steering)
+  - Longitudinal Control (Throttle/Braking)
+  - Lateral Control (Steering)
 Utilized Python & CARLA Simulation Cohesively
- -Control vehicle to follow race track
- -Navigate through preset waypoints along predefined path (think Google Maps!)
- -Receive information of relative position & velocity 
- -Update/Command steering angle & throttle/velocity profiles from Python to CARLA
- -Adjust Steering Angle & Speed Profiles as Needed
- -Must reach waypoints at certain desired speeds
+ - Control vehicle to follow race track
+ - Navigate through preset waypoints along predefined path (think Google Maps!)
+ - Receive information of relative position & velocity 
+ - Update/Command steering angle & throttle/velocity profiles from Python to CARLA
+ - Adjust Steering Angle & Speed Profiles as Needed
+ - Must reach waypoints at certain desired speeds
 </p>
 
 ## Test
