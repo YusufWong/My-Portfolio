@@ -9,10 +9,12 @@ This portfolio highlights my journey in both Mechanical and Computer Engineer. E
 - Visuals, such as CAD designs, simulations, or final products.
 - Snippets of code and/or technical documentation.
 
-[Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf) \
-[Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)
 
 **Click on a project title/image to explore its details!**
+
+Here's my [Resume]!(https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf) \
+Here's my [Transcript]!(https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)
+
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
 <p align="center">
