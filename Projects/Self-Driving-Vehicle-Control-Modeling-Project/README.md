@@ -1,7 +1,7 @@
 # Self-Driving Vehicle Control Modeling using Python & PID Control on CARLA Simulator 
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project">
-    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="600">
+    <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" width="800">
   </a>
 
 </p>
@@ -13,7 +13,7 @@ Here is a 1-minute driving simulation of an autonomous car driving on a racetrac
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_logo.jpg"
   width = "400" />
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/SimulatorWithPython.png"
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/SimulatorWithPython.png"
   width = "400" />
 </p>
 
