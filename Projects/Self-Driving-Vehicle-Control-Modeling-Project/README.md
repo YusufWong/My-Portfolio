@@ -11,8 +11,10 @@
 ## Background
 
 <p align="center">
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_logo.jpg" />
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_carDriving.png" />
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_logo.jpg"
+  width = "400" />
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/images/CARLA_carDriving.png"
+  width = "400" />
 </p>
 
 
