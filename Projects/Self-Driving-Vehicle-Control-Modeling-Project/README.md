@@ -33,7 +33,7 @@ The goal of this project is to develop a controller that enables a vehicle to au
  -Python
  -Vehicle Control Modelling Strategies
 Implement PID Control Methods
- -Longitudinal Control (Throttle/Braking)
+  -Longitudinal Control (Throttle/Braking)
  -Lateral Control (Steering)
 Utilized Python & CARLA Simulation Cohesively
  -Control vehicle to follow race track
@@ -44,41 +44,4 @@ Utilized Python & CARLA Simulation Cohesively
  -Must reach waypoints at certain desired speeds
 </p>
 
-
-
-Program Driving Simulation using 
-- Python
-- Vehicle Control Modelling Strategies
-
-Implement PID Control Methods
-- Longitudinal Control (Throttle/Braking)
-- Lateral Control (Steering)
-
-Utilized Python & CARLA Simulation Cohesively
-- Control vehicle to follow race track
-- Navigate through preset waypoints along predefined path (think Google Maps!)
-- Receive information of relative position & velocity 
-- Update/Command steering angle & throttle/velocity profiles from Python to CARLA
-- Adjust Steering Angle & Speed Profiles as Needed
-- Must reach waypoints at certain desired speeds
-
-
-
-
- That is so funny! :joy: 
-
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text | 
-
-
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-``` 
+## Test
