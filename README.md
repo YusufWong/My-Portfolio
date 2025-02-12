@@ -50,9 +50,9 @@ I utilized Scikit-learn machine learning and Pandas data manipulation Python lib
 I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
 
-## [Baja SAE Senior Design SolidWorks Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf)	
+## [Baja SAE Senior Design SolidWorks Project](https://docs.google.com/presentation/d/12AOSnwaGU5c6VDBWXvyTBR1NJ7XI6S5aY3TCzm1zNRk)	
 <p align="center">
-<a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf">  
+<a href="https://docs.google.com/presentation/d/12AOSnwaGU5c6VDBWXvyTBR1NJ7XI6S5aY3TCzm1zNRk">  
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Baja_SolidWorks.png"/>
   </a>
 </p>
