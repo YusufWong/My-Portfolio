@@ -7,7 +7,8 @@
 This portfolio highlights my journey in both Mechanical and Computer Engineering. Each project includes:
 - An overview of the project goals.
 - Visuals, such as CAD designs, simulations, or final products.
-- Snippets of code and/or technical documentation.\
+- Snippets of code and/or technical documentation.
+\
 **Click on a project title/image to explore its details!**
 
 Here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf)! \
