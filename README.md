@@ -14,9 +14,9 @@ Here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Won
 Here's my [Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)!
 
 
-##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md) 
+##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://docs.google.com/presentation/d/190HaHWupJCxeDLI6_RuM9T90ftuRWPiQul_-G3vU_9A/edit?usp=drive_link) 
 <p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Self-Driving-Vehicle-Control-Modeling-Project/README.md">
+  <a href="https://docs.google.com/presentation/d/190HaHWupJCxeDLI6_RuM9T90ftuRWPiQul_-G3vU_9A/edit?usp=drive_link">
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" 
     height="500">
   </a>
@@ -41,9 +41,8 @@ I utilized Scikit-learn machine learning and Pandas data manipulation Python lib
 ## [Android Chess Game App using Java](https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/README.md)	
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/README.md">
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif"
-    height = "600" 
-    width = "350" /> 
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif" 
+    width = "400" /> 
 </p>
 I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
