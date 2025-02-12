@@ -29,7 +29,7 @@ I programmed a 1-minute driving simulation of an autonomous car driving on a rac
 
 ##  [Pokémon Machine Learning Project](https://colab.research.google.com/drive/1uv-8b6Rp9H8LQXD3ly8sojC7xDSWMq5H?authuser=1#scrollTo=consecutive-public) 
 <p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Pokemon-Machine-Learning-Project/PokemonMachineLearningProject.ipynb">
+  <a href="https://colab.research.google.com/drive/1uv-8b6Rp9H8LQXD3ly8sojC7xDSWMq5H?authuser=1#scrollTo=consecutive-public">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" 
     height = "500"
     />  
