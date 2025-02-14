@@ -5,6 +5,7 @@
 </p>
 
 <p>
+
 This portfolio highlights my journey in both Mechanical and Computer Engineering. Each project includes:
 - An overview of the project goals.
 - Visuals, such as CAD designs, simulations, or final products.
