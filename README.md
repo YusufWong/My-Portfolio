@@ -14,8 +14,7 @@ This portfolio highlights my journey in both Mechanical and Computer Engineering
 
 **Click on a project title/image to explore its details!**
 
-Also, here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf)! \
-And my [Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)!
+Also, here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Resume.pdf)! And my [Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wong-Student_Transcript.pdf)!
 
 
 ##  [Self-Driving Vehicle Control Modeling using Python on CARLA Simulator](https://docs.google.com/presentation/d/190HaHWupJCxeDLI6_RuM9T90ftuRWPiQul_-G3vU_9A/edit?usp=drive_link) 
@@ -24,8 +23,9 @@ And my [Transcript](https://github.com/YusufWong/My-Portfolio/blob/main/Yusuf_Wo
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" 
     height="500">
   </a>
+I programmed a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjust its speed profiles to communicate the car's movements and interactions on the track.
+
 </p>
-I programmed a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjusting its speed profiles to communicate the car's movements and interactions on the track.
 
 
 ##  [Pokémon Machine Learning Project](https://colab.research.google.com/drive/1uv-8b6Rp9H8LQXD3ly8sojC7xDSWMq5H) 
