@@ -29,7 +29,8 @@ I programmed a 1-minute driving simulation of an autonomous car driving on a rac
 ##  [Pokémon Machine Learning Project](https://colab.research.google.com/drive/1uv-8b6Rp9H8LQXD3ly8sojC7xDSWMq5H) 
 <p align="center">
   <a href="https://colab.research.google.com/drive/1uv-8b6Rp9H8LQXD3ly8sojC7xDSWMq5H">
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" >  
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Graph.png" 
+  width = "600">  
     </a>
 </p>
 I utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.
@@ -49,7 +50,7 @@ I reversed engineered the game of chess from scratch by utilizing Java and Objec
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Baja_SolidWorks.png"/>
   </a>
 </p>
-I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease.\ 
+I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease.
 
 Click [here](https://docs.google.com/presentation/d/12AOSnwaGU5c6VDBWXvyTBR1NJ7XI6S5aY3TCzm1zNRk) to see our Presentation.\
 Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf) to see our Final Report.
