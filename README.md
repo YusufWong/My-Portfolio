@@ -31,11 +31,11 @@ Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-S
 
 ## [3D Printed Robotic Elbow Exoskeleton using SolidWorks](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf)	
 <p align="center">
-<a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf"> 
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-Diagram.png" 
-  </a>
 <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf">  
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-3D-Model.png"
+  </a>
+<a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf"> 
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-Diagram.png" 
   </a>
 </p>
 I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
