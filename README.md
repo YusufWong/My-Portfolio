@@ -24,7 +24,7 @@ Also, here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yus
   width = "600"/>
   </a>
 </p>
-I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease.
+I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease.\
 
 Click [here](https://docs.google.com/presentation/d/12AOSnwaGU5c6VDBWXvyTBR1NJ7XI6S5aY3TCzm1zNRk) to see our Presentation.\
 Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf) to see our Final Report.
@@ -67,7 +67,7 @@ I ran a simulation of air flow at an inlet velocity and attack angle on an aircr
 <p align="center">
   <a href="https://docs.google.com/presentation/d/190HaHWupJCxeDLI6_RuM9T90ftuRWPiQul_-G3vU_9A/edit?usp=drive_link">
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" 
-    height="500">
+    width="500">
   </a>
 </p>
 I programmed a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjust its speed profiles to communicate the car's movements and interactions on the track.
