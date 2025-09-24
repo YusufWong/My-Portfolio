@@ -78,7 +78,7 @@ I programmed a 1-minute driving simulation of an autonomous car driving on a rac
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/README.md">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif" 
-    width = "400" /> 
+    width = "600" /> 
 </p>
 I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
