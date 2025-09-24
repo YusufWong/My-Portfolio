@@ -33,11 +33,11 @@ Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-S
 <p align="center">
 <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf"> 
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-Diagram.png" 
-  width = "450"/>
+  width = "400"/>
   </a>
 <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf">  
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-3D-Model.png"
-  width = "450" />
+  width = "400" />
   </a>
 </p>
 I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
