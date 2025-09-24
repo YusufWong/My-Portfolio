@@ -33,11 +33,9 @@ Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-S
 <p align="center">
 <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf"> 
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-Diagram.png" 
-  width = "350"/>
   </a>
 <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf">  
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Elbow-Exoskeleton-3D-Model.png"
-  width = "450" />
   </a>
 </p>
 I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
@@ -76,7 +74,7 @@ I programmed a 1-minute driving simulation of an autonomous car driving on a rac
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/tree/main/Projects/Chess-Game-App-Project/README.md">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Chess_Game_Demo.gif" 
-    width = "450" /> 
+    width = "400" /> 
 </p>
 I reversed engineered the game of chess from scratch by utilizing Java and Object-Oriented Programming on Android Studio. A 2D array of customized Image buttons was used to allow two users to play the android application from any smartphone device.
 
