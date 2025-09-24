@@ -24,7 +24,7 @@ Also, here's my [Resume](https://github.com/YusufWong/My-Portfolio/blob/main/Yus
   width = "600"/>
   </a>
 </p>
-I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease.  
+I collaborated as a team to design a single-seat, off-road Baja on SolidWorks to compete in the SAE 2021 competition. I also Implemented Nissan’s ATTESA AWD powertrain design system to electromechanically actuate a multiplate clutch pack using an electric motor and a rotating, planetary geartrain design to dynamically split power from the engine to both front and rear axles by transferring 475 ft-lbs. of torque, allowing the driver to safely corner and race with ease.<br><br>
 
 Click [here](https://docs.google.com/presentation/d/12AOSnwaGU5c6VDBWXvyTBR1NJ7XI6S5aY3TCzm1zNRk) to see our Presentation.\
 Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf) to see our Final Report.
