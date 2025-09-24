@@ -1,7 +1,7 @@
 # WELCOME TO MY PORTFOLIO!
 <p align="center">
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Welcome.jpg"
-    height="400" />
+    height="600" />
 </p>
 
 <p>
