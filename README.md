@@ -67,7 +67,8 @@ I ran a simulation of air flow at an inlet velocity and attack angle on an aircr
 <p align="center">
   <a href="https://docs.google.com/presentation/d/190HaHWupJCxeDLI6_RuM9T90ftuRWPiQul_-G3vU_9A/edit?usp=drive_link">
     <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/Car-Simulation.gif" 
-    width="500">
+    height = "350"
+    width = "500">
   </a>
 </p>
 I programmed a 1-minute driving simulation of an autonomous car driving on a racetrack on CARLA, an open source virtual driving simulator. By utilizing Python and lateral/longitudinal vehicle control modeling strategies, I was able to adjust its speed profiles to communicate the car's movements and interactions on the track.
