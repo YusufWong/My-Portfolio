@@ -39,6 +39,16 @@ Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-S
 </p>
 I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
 
+## [Propeller Solid Modeling Project using Reverse Engineering Methods](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf)	
+<p align="center">
+  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf">  
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/3D-Propeller.png"
+    width = "600" />
+  </a>
+</p>
+I reverse engineered a propeller using SolidWorks by analyzing its components and taking precise measurements with tools such as calipers, contour gauges, and compasses. I created accurate 2D sketches and applied advanced surface modeling techniques to build a detailed 3D model, replicating the complex geometry of the fan blade while gaining a thorough understanding of its aerodynamic and structural design.
+
+
 
 ## [Finite Element Analysis (FEA) of a Crankshaft using SolidWorks Simulation](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/FEA-Crankshaft-SolidWorks-Project/FEA_Crankshaft_Pulley_Yusuf_Wong.pdf)	
 <p align="center">
@@ -88,13 +98,4 @@ I reversed engineered the game of chess from scratch by utilizing Java and Objec
 I utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.
 
 
-## [Propeller Solid Modeling Project using Reverse Engineering Methods](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf)	
-<p align="center">
-  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf">  
-  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/3D-Propeller.png"
-    width = "600" />
-  </a>
-</p>
-
-I analyzed the components of a propeller and took my measurements using tools such as a caliper, contour gauge, and compass to design a 3D model on SolidWorks by creating 2D sketches and utilizing advacned surface features and techniques to reverse engineer the fan blade.
 
