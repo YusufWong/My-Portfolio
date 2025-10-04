@@ -29,7 +29,7 @@ Click [here](https://docs.google.com/presentation/d/12AOSnwaGU5c6VDBWXvyTBR1NJ7X
 Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-SAE-Senior-Design-Project/Baja-SAE-Final-Report-Spring-2021.pdf) to see our Final Report.
 
 
-## [3D Printed Robotic Elbow Exoskeleton using SolidWorks](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf)	
+## [Robotic Elbow Exoskeleton using SolidWorks](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf)	
 <p align="center">
 
 <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/3D-Printed-Elbow-Exoskeleton-Project/Yusuf_Wong-ME599-Final_Report.pdf">  
@@ -39,7 +39,7 @@ Click [here](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Baja-S
 </p>
 I utilized SolidWorks to fabricate an elbow exoskeleton prototype with two degrees of freedom that applies 300 N-cm of assistive flexion and extension torque. Pin joints and load cells were used to provide responsive lateral and medial rotation for the user.
 
-## [Propeller Solid Modeling Project using Reverse Engineering Methods](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf)	
+## [Reverse Engineered Propeller Solid Modeling Project](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf)	
 <p align="center">
   <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf">  
   <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/3D-Propeller.png"
