@@ -88,5 +88,13 @@ I reversed engineered the game of chess from scratch by utilizing Java and Objec
 I utilized Scikit-learn machine learning and Pandas data manipulation Python libraries to make predictions about the qualitative and quantitative stats of the entire Pokémon Universe for Linear Regression and k-Nearest Neighbor Classification analysis. Pokémon datasets were prepped using subsets of a DataFrame that were split into training and testing sets for both machine learning models.
 
 
+## [Propeller Solid Modeling Project using Reverse Engineering Methods](https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf)	
+<p align="center">
+  <a href="https://github.com/YusufWong/My-Portfolio/blob/main/Projects/Propeller-Solid-Modeling-Project/Reverse_Engineered_Propeller_Solid_Modeling_Project_Yusuf_Wong.pdf">  
+  <img src="https://github.com/YusufWong/My-Portfolio/blob/main/images/3D-Propeller.png"
+    width = "600" />
+  </a>
+</p>
 
+I analyzed the components of a propeller and took my measurements using tools such as a caliper, contour gauge, and compass to design a 3D model on SolidWorks by creating 2D sketches and utilizing advacned surface features and techniques to reverse engineer the fan blade.
 
